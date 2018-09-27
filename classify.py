@@ -1,14 +1,7 @@
-import sys
 import pandas as pd
 import numpy as np
 from scipy.cluster.vq import whiten
 from scipy.spatial import distance
-from sklearn.neighbors import NearestNeighbors
-
-### Enter data to search ###
-
-##playerType = 'pitcher'
-##player = "Kevin Gausman"
 
 ### read in and whiten data ###
 

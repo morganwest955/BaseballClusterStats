@@ -1,12 +1,3 @@
-# cluster pitchers
-# cluster hitters
-# individual hitters against each type of pitcher
-# individual pitchers against each type of hitter
-# each type of pitcher against each type of hitter
-# batting average
-# slugging percentage
-# visiualizations(?)
-
 import pandas as pd
 import numpy as np
 from scipy.cluster.vq import vq, kmeans, whiten
